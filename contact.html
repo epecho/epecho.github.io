@@ -17,22 +17,32 @@
 		</nav>
 	</header>
 	<div class="container">
-		<main class="index">
-			<h2>About</h2>
-			<img class="headShot" src="http://placehold.it/200x150" alt="This is my profile picture.">
-			<p>
-				Marshmallow jelly souffle pastry biscuit 
-				gummi bears tootsie roll tootsie roll 
-				gingerbread. Cotton candy muffin
-				gingerbread fruitcakes. Sweet roll souffie
-				topping wafer croissant oat cake 
-				gummi bears. 
-			</p>
-			<p>
-				Jell-o cheesecake dessert fruitcake ice cream brownies liquorice souffie.
-				Caramels biscuit gummi bears tiramisu chups. Croissant 
-				macaroon cotton candy cake pudding.
-			</p>
+		<main class="contact">
+			<h2>Contact</h2>
+
+			<form class="contact">
+				<fieldset>
+					<ol>
+						<li>
+							<label for=name>Name</label><br>
+							<input id=name name=name type=text placeholder="First and last name" required>
+						</li>
+						<li>
+							<label for=email>Email</label><br>
+							<input id=email name=email type=email placeholder="example@domain.com" required>
+						</li>
+						<li>
+							<label for=massage>Message</label><br>
+							<textarea rows="4" cols="50" placeholder="Please write your message here."></textarea>
+						</li>
+					</ol>
+				</fieldset>
+				
+				<fieldset>
+					<button type=submit>Submit</button>
+				</fieldset>
+			</form>
+			
 		</main>
 
 		<aside>
